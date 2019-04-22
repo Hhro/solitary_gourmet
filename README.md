@@ -36,5 +36,7 @@ If I think it's worth, I would leave detail writeup and impression, but if not, 
 
 - TBU : to be updated
 - ❌: not solved yet
-- :small_red_triangle: : no detail writeup.
+- :black_flag: : only simple writeup(code and little description)
+- :flags: : detail writeup will be uploaded soon.
+- :triangular_flag_on_post: : detail writeup is uploaded.
 - \- : It won't be filled.(maybe because it's too easy)

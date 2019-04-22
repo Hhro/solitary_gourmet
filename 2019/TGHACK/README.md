@@ -16,21 +16,21 @@ CTF for super-noobs and beginners.
 
 ## Challenge List
 
-|                 Name                 | Category |  Difficulty  |  Worth   | Write up |            Tags            |
-| :----------------------------------: | :------: | :----------: | :------: | :------: | :------------------------: |
-|               pwntion1               |   pwn    |    :star:    |    -     |    -     |             -              |
-|               pwntion2               |   pwn    |    :star:    |    -     |    -     |             -              |
-|               pwntion3               |   pwn    |    :star:    |    -     |    -     |             -              |
-|         The great bank heist         |   pwn    | :star::star: | :dollar: |   TBD    |  `KVM`, `16bit assembly`   |
-|     Are You Flipping Kidding Me?     |   pwn    | :star::star: | :dollar: |   TBD    | `bitflip`,`GOT overwrite ` |
-| Baby's First JavaScript Exploitation |   pwn    |      X       |    X     |    X     |             -              |
-|              Bytecodes               |   rev    |    :star:    |    -     |    -     |      `pyc decompile`       |
-|   Gringotts Digitalization Project   |   rev    | :star::star: | :dollar: |   TBD    |        `proc file`         |
-|            Cracking Magic            |   rev    |    :star:    |    -     |    -     |          `brute`           |
-|             Elfish flag              |   rev    |    :star:    |    -     |    -     |             -              |
-|         Gotta Catch 'Em All          |   rev    |      X       |    X     |    X     |             -              |
-|            Fortune cookie            |   web    |    :star:    |    -     |    -     |    `cookie`, `guessing`    |
-|               Imagicur               |   web    |    :star:    |    -     |    -     |       `file upload`        |
-|               Wandshop               |   web    |    :star:    |    -     |    -     |     `request forgery`      |
-|               itsmagic               |   web    |    :star:    |    -     |    -     |     `IDOR`,`guessing`      |
-|             Wizardschat              |   web    |      X       |    X     |    X     |        `flask SSTI`        |
+|                 Name                 | Category |  Difficulty  |  Worth   |   Write up   |            Tags            |
+| :----------------------------------: | :------: | :----------: | :------: | :----------: | :------------------------: |
+|               pwntion1               |   pwn    |    :star:    |    -     | :black_flag: |             -              |
+|               pwntion2               |   pwn    |    :star:    |    -     | :black_flag: |             -              |
+|               pwntion3               |   pwn    |    :star:    |    -     | :black_flag: |             -              |
+|         The great bank heist         |   pwn    | :star::star: | :dollar: |   :flags:    |  `KVM`, `16bit assembly`   |
+|     Are You Flipping Kidding Me?     |   pwn    | :star::star: | :dollar: | :black_flag: | `bitflip`,`GOT overwrite ` |
+| Baby's First JavaScript Exploitation |   pwn    |      X       |    X     |      X       |             X              |
+|              Bytecodes               |   rev    |    :star:    |    -     | :black_flag: |      `pyc decompile`       |
+|   Gringotts Digitalization Project   |   rev    |    :star:    | :dollar: |      -       |        `proc file`         |
+|            Cracking Magic            |   rev    |    :star:    |    -     | :black_flag: |          `brute`           |
+|             Elfish flag              |   rev    |    :star:    |    -     | :black_flag: |             -              |
+|         Gotta Catch 'Em All          |   rev    |      X       |    X     |      X       |             -              |
+|            Fortune cookie            |   web    |    :star:    |    -     |      -       |    `cookie`, `guessing`    |
+|               Imagicur               |   web    |    :star:    |    -     |      -       |       `file upload`        |
+|               Wandshop               |   web    |    :star:    |    -     |      -       |     `request forgery`      |
+|               itsmagic               |   web    |    :star:    |    -     |      -       |     `IDOR`,`guessing`      |
+|             Wizardschat              |   web    |      X       |    X     |      X       |        `flask SSTI`        |
