@@ -13,22 +13,18 @@
 
 ## Challenge List
 
-(X : unsolved, :triangle:)
-
-  mindspace  seatbelt  xarch
-
-|      Name       | Category | Write-up | Difficulty |           Tags           |
-| :-------------: | :------: | :------: | :--------: | :----------------------: |
-|   Silk roadI    |   pwn    |   TBD    |    easy    | `SBOF`,`ROP`,`leave-ret` |
-|   Silk roadII   |   pwn    |    X     |     X      |            -             |
-|  Silk roadIII   |   pwn    |    X     |     X      |            -             |
-| precise Average |   pwn    |   TBD    |    easy    | `SBOF`,`ROP`,`leave-ret` |
-|  Double cream   |   pwn    |    X     |     X      |            -             |
-|     pwn101      |   pwn    |    X     |     X      |            -             |
-|     BabyVM1     |   pwn    |    X     |     X      |            -             |
-|    Keymaker     |   rev    |   TBD    |    easy    |     `linear algebra`     |
-|     Medias      |   rev    |    X     |     X      |            -             |
-|   Archimedes    |   rev    |    X     |     X      |            -             |
-|    Mindspace    |   rev    |    X     |     X      |            -             |
-|    Seatbelt     |   rev    |    X     |     X      |            -             |
-|      Xarch      |   rev    |    X     |     X      |            -             |
+|      Name       | Category |  Difficulty  |      Worth       | Write up |             Tags             |
+| :-------------: | :------: | :----------: | :--------------: | :------: | :--------------------------: |
+|   Silk roadI    |   pwn    | :star::star: |     :dollar:     |   TBU    |   `SBOF`,`ROP`,`leave-ret`   |
+|   Silk roadII   |   pwn    |      X       |        X         |    X     |              X               |
+|  Silk roadIII   |   pwn    |      X       |        X         |    X     |              X               |
+| precise Average |   pwn    | :star::star: |     :dollar:     |   TBU    |   `SBOF`,`ROP`,`leave-ret`   |
+|  Double cream   |   pwn    |      X       |        X         |    X     |            `fsb`             |
+|     pwn101      |   pwn    | :star::star: |     :dollar:     |   TBU    | `tcache`,`one byte overflow` |
+|     BabyVM1     |   pwn    |      X       |        X         |    X     |              X               |
+|    Keymaker     |   rev    | :star::star: | :dollar::dollar: |   TBU    |       `linear algebra`       |
+|     Medias      |   rev    |      X       |        X         |    X     |              X               |
+|   Archimedes    |   rev    |      X       |        X         |    X     |              X               |
+|    Mindspace    |   rev    |      X       |        X         |    X     |              X               |
+|    Seatbelt     |   rev    |      X       |        X         |    X     |              X               |
+|      Xarch      |   rev    |      X       |        X         |    X     |              X               |
