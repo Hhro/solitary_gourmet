@@ -1,3 +1,5 @@
+
+
 # angstrom CTF
 
 ## Abstraction
@@ -13,19 +15,19 @@
 
 ## Challenge List
 
-|        Name         | Category | Difficulty |  Worth   |   Write up   |  Tags  |
-| :-----------------: | :------: | :--------: | :------: | :----------: | :----: |
-|      aquarium       |   pwn    |   :star:   | :dollar: | :black_flag: | `SBOF` |
-|    chain of rope    |   pwn    |   :star:   | :dollar: | :black_flag: | `ROP`  |
-|    over my brain    |   pwn    |     X      |    X     |      X       |   X    |
-|      pie shop       |   pwn    |     X      |    X     |      X       |   X    |
-|      purchases      |   pwn    |   :star:   | :dollar: | :black_flag: | `fsb`  |
-|       returns       |   pwn    |   :star:   | :dollar: | :black_flag: | `fsb`  |
-|       server        |   pwn    |     X      |    X     |      X       |   X    |
-|    weeb hunting     |   pwn    |     X      |    X     |      X       |   X    |
-|       bugger        |   rev    |     X      |    X     |      X       |   X    |
-| high quality checks |   rev    |     X      |    X     |      X       |   X    |
-|      I like it      |   rev    |     X      |    X     |      X       |   X    |
-|       icthyo        |   rev    |     X      |    X     |      X       |   X    |
-|    intro to rev     |   rev    |   :star:   | :dollar: |      X       | `noob` |
-|      one bite       |   rev    |     X      |    X     |      X       |   X    |
+|        Name         | Category |  Difficulty  |  Worth   |   Write up   |         Tags         |
+| :-----------------: | :------: | :----------: | :------: | :----------: | :------------------: |
+|      aquarium       |   pwn    |    :star:    | :dollar: | :black_flag: |        `SBOF`        |
+|    chain of rope    |   pwn    |    :star:    | :dollar: | :black_flag: |        `ROP`         |
+|    over my brain    |   pwn    | :star::star: | :dollar: | :black_flag: | `brain fuck`, `SBOF` |
+|      pie shop       |   pwn    |      X       |    X     |      X       |          X           |
+|      purchases      |   pwn    |    :star:    | :dollar: | :black_flag: |        `fsb`         |
+|       returns       |   pwn    |    :star:    | :dollar: | :black_flag: |        `fsb`         |
+|       server        |   pwn    |      X       |    X     |      X       |          X           |
+|    weeb hunting     |   pwn    |      X       |    X     |      X       |          X           |
+|       bugger        |   rev    |      X       |    X     |      X       |          X           |
+| high quality checks |   rev    |      X       |    X     |      X       |          X           |
+|      I like it      |   rev    |    :star:    | :dollar: | :black_flag: |        `noob`        |
+|       icthyo        |   rev    |      X       |    X     |      X       |          X           |
+|    intro to rev     |   rev    |    :star:    | :dollar: | :black_flag: |        `noob`        |
+|      one bite       |   rev    |    :star:    | :dollar: | :black_flag: |        `noob`        |
