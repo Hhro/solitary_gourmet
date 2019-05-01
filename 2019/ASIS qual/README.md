@@ -20,7 +20,7 @@
 |  Silk roadIII   |   pwn    |      X       |        X         |      X       |              X               |
 | precise Average |   pwn    | :star::star: |     :dollar:     | :black_flag: |   `SBOF`,`ROP`,`leave-ret`   |
 |  Double cream   |   pwn    |      X       |        X         |      X       |            `fsb`             |
-|     pwn101      |   pwn    | :star::star: |     :dollar:     | :black_flag: | `tcache`,`one byte overflow` |
+|     pwn101      |   pwn    | :star::star: |     :dollar::dollar:     | :black_flag: | `tcache`,`one byte overflow` |
 |     BabyVM1     |   pwn    |      X       |        X         |      X       |              X               |
 |    Keymaker     |   rev    | :star::star: | :dollar::dollar: | :black_flag: |       `linear algebra`       |
 |     Medias      |   rev    |      X       |        X         |      X       |              X               |
