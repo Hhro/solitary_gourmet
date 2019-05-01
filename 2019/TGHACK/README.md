@@ -58,10 +58,10 @@ CTF for noobs and intermediate.
 |   Gringotts Digitalization Project   |   rev    |       :star:       |     :dollar:     |      -       |        `proc file`         |
 |            Cracking Magic            |   rev    |       :star:       |     :dollar:     | :black_flag: |          `brute`           |
 |             Elfish flag              |   rev    |       :star:       |     :dollar:     | :black_flag: |             -              |
-|         Gotta Catch 'Em All          |   rev    |         X          |        X         |      X       |             -              |
+|         Gotta Catch 'Em All          |   rev    |         -          |        -         |      -       |             -              |
 |            Fortune cookie            |   web    |       :star:       |     :dollar:     |      -       |    `cookie`, `guessing`    |
 |               Imagicur               |   web    |       :star:       |     :dollar:     |      -       |       `file upload`        |
 |               Wandshop               |   web    |       :star:       |     :dollar:     |      -       |     `request forgery`      |
 |               itsmagic               |   web    |       :star:       |     :dollar:     |      -       |     `IDOR`,`guessing`      |
-|             Wizardschat              |   web    |    :star::star:    |     :dollar:     |      X       |        `flask SSTI`        |
+|             Wizardschat              |   web    |    :star::star:    |     :dollar:     |      -       |        `flask SSTI`        |
 
