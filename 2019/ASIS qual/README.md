@@ -1,6 +1,6 @@
 # ASIS qual
 
-## Abstraction
+## Abstract
 
 - Weight of CTF time : 61.74
 - Format : Jeopardy
@@ -8,6 +8,24 @@
 - Novelty : TBD
 
 
+
+## Overview
+
+### Pwnable
+
+- **Silk roadI** : 기초적인 포너블 요소는 다 갖췄다. 그런데 귀찮은 계산 문제 때문에 풀기 피곤해진다.
+
+- **precise Average** : 굉장히 쉬운 문제인데, 괜히 소수를 끌어들여서 피로도가 또 증가한다. 그리고 어디선가 많이 본 것 같다.
+
+- **pwn101** : `tcache`와 힙 `one byte overflow`가 섞인 문제. `tcache` 연습문제 정도로 괜찮을 듯.
+
+  
+
+### Reversing
+
+- **keymaker** : 선형대수학😬
+
+  
 
 ---
 
