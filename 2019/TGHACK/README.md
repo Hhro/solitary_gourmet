@@ -8,7 +8,7 @@
 - Novelty : :star: 
 - Link : <https://tghack.no/> (avail until 2020)
 
-CTF for super-noobs and beginners.
+CTF for noobs and intermediates.
 
 
 
