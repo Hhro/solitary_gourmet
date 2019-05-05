@@ -33,10 +33,10 @@
 
 |      Name       | Category |  Difficulty  |      Worth       |   Write up   |             Tags             |
 | :-------------: | :------: | :----------: | :--------------: | :----------: | :--------------------------: |
-|   Silk roadI    |   pwn    | :star::star: |     :dollar:     | :black_flag: |   `SBOF`,`ROP`,`leave-ret`   |
+|   Silk roadI    |   pwn    | :star: |     :dollar:     | :black_flag: |   `SBOF`,`ROP`,`leave-ret`   |
 |   Silk roadII   |   pwn    |      X       |        X         |      X       |              X               |
 |  Silk roadIII   |   pwn    |      X       |        X         |      X       |              X               |
-| precise Average |   pwn    | :star::star: |     :dollar:     | :black_flag: |   `SBOF`,`ROP`,`leave-ret`   |
+| precise Average |   pwn    | :star: |     :dollar:     | :black_flag: |   `SBOF`,`ROP`,`leave-ret`   |
 |  Double cream   |   pwn    |      X       |        X         |      X       |            `fsb`             |
 |     pwn101      |   pwn    | :star::star: |     :dollar::dollar:     | :black_flag: | `tcache`,`one byte overflow` |
 |     BabyVM1     |   pwn    |      X       |        X         |      X       |              X               |

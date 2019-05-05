@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/61cc66c/
+HEADER	dashlame.py	/^HEADER = "      \/.m.\\\\\\n     \/.mnnm.\\\\                                              ___\\/;"	v
+PEARSON_TABLE	dashlame.py	/^PEARSON_TABLE = [$/;"	v
+accessArchive	dashlame.py	/^def accessArchive():$/;"	f
+createArchive	dashlame.py	/^def createArchive():$/;"	f
+decrypt_archive	dashlame.py	/^def decrypt_archive(archive_filename, passphraseA, passphraseB):$/;"	f
+decrypt_stream	dashlame.py	/^def decrypt_stream(data, passphrase):$/;"	f
+encrypt_archive	dashlame.py	/^def encrypt_archive(archive_filename, passphraseA, passphraseB):$/;"	f
+encrypt_stream	dashlame.py	/^def encrypt_stream(data, passphrase):$/;"	f
+get_pearson_hash	dashlame.py	/^def get_pearson_hash(passphrase):$/;"	f
+get_random_passphrase	dashlame.py	/^def get_random_passphrase():$/;"	f
+pad	dashlame.py	/^def pad(s):$/;"	f
+unpad	dashlame.py	/^def unpad(s):$/;"	f
+updateArchive	dashlame.py	/^def updateArchive():$/;"	f
