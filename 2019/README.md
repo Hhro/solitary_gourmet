@@ -6,5 +6,5 @@
 | [angstrom](angstrom/) |      22.98      |    X     |
 |   [ASIS qual](ASIS)   |      61.74      |    X     |
 |  [inshack](inshack/)  |      29.65      |    X     |
-|      [tsg](tsg/)      |        0        |    X     |
+|      [TSG](TSG/)      |        0        |    X     |
 
