@@ -40,24 +40,24 @@
 
 ## Challenge List
 
-|                 Name                 | Category |     Difficulty     |      Worth       |   Write up   |            Tags            |
-| :----------------------------------: | :------: | :----------------: | :--------------: | :----------: | :------------------------: |
-|               integerover               |   pwn    |       :star:       |     :dollar:     | :black_flag: |             `int overflow`             |
-|               signed or not signed               |   pwn    |       :star:       |     :dollar:     | :black_flag: |             `type casting`             |
-|       OverCobol        |   pwn    |       :star:       |     :dollar::dollar:     | :flags: |             `cobol`,`bof`             |
-|    gimme-your-shell    |   pwn    |    :star:    | :dollar: | :black_flag: |   `shell coding`   |
-|        ropberry        |   pwn    |    :star:    |     :dollar:     | :black_flag: |       `ROP`        |
-|     hell_of_a_jail     |   pwn    | :star::star: | :dollar::dollar: |      :flags:      | `python3`,`pyjail` |
-|       john-cena        |   pwn   |       :star::star:       |     :dollar::dollar:     |   :flags:    |   `fsb`,`blind`    |
-|   Dashlame - Part 1    |   rev    |       :star:       |     :dollar:     |      -       |       `pyc`        |
-|  Obscure File Format   |   rev    |      X       |        X         |      X       |         X          |
-|             xHell             |   rev    |      X       |        X         |      X       |             X              |
-|         Deaddrop Filesystem         |   rev    |         X          |        X        |      X       |             X              |
-|     useless-chall      |   rev   |      X       |        X         |      X       |         X          |
-|               PaPaVM               |   rev   |       :star::star:       |     :dollar:     | :black_flag: |    `VM`,`brute`    |
-|               Exploring The Universe               |   web    |       :star:       |     :dollar:     |      -       |  `dir traversal`   |
-|         atchap         |   web    |      X       |        X         |      x       |         X          |
-|       unchained        |   web    |      X       |        X         |      X       |         X          |
-|  bypasses-everywhere   | web | X | X | X | X |
-| bypasses-everywhere v2 | web | X | X | X | X |
+|                 Name                 | Category |     Difficulty     |      Worth       |   Write up   |            Tags            | Solves |
+| :----------------------------------: | :------: | :----------------: | :--------------: | :----------: | :------------------------: | :----------------------------------: |
+|               integerover               |   pwn    |       :star:       |     :dollar:     | :black_flag: |             `int overflow`             | 294 |
+|               signed or not signed               |   pwn    |       :star:       |     :dollar:     | :black_flag: |             `type casting`             | 272 |
+|       OverCobol        |   pwn    |       :star:       |     :dollar::dollar:     | :flags: |             `cobol`,`bof`             | 111 |
+|    gimme-your-shell    |   pwn    |    :star:    | :dollar: | :black_flag: |   `shell coding`   | 66 |
+|        ropberry        |   pwn    |    :star:    |     :dollar:     | :black_flag: |       `ROP`        | 75 |
+|     hell_of_a_jail     |   pwn    | :star::star: | :dollar::dollar: |      :flags:      | `python3`,`pyjail` | 47 |
+|       john-cena        |   pwn   |       :star::star:       |     :dollar::dollar:     |   :flags:    |   `fsb`,`blind`    | 20 |
+|   Dashlame - Part 1    |   rev    |       :star:       |     :dollar:     |      -       |       `pyc`        | 268 |
+|  Obscure File Format   |   rev    |      X       |        X         |      X       |         `obfuscated`         | 50 |
+|             xHell             |   rev    |      X       |        X         |      X       |             `xlsx`             | 44 |
+|         Deaddrop Filesystem         |   rev    |         X          |        X        |      X       |             X              | 5 |
+|     useless-chall      |   rev   | :star: | :dollar::dollar: |     :flags: |         `angr`         | 27 |
+|               PaPaVM               |   rev   |       :star::star:       |     :dollar:     | :black_flag: |    `VM`,`brute`    | 12 |
+|               Exploring The Universe               |   web    |       :star:       |     :dollar:     |      -       |  `dir traversal`   | 140 |
+|         atchap         |   web    |      :star: |        :dollar: |      -       |         -         | 63 |
+|       unchained        |   web    |      X       |        X         |      X       |         X          | 42 |
+|  bypasses-everywhere   | web | :star::star::star: | :dollar::dollar::dollar: | :flags: | `CSP`,`XSS` | 5 |
+| bypasses-everywhere v2 | web | X | X | X | X | 3 |
 
