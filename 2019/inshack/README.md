@@ -44,7 +44,7 @@
 | :----------------------------------: | :------: | :----------------: | :--------------: | :----------: | :------------------------: | :----------------------------------: |
 |               integerover               |   pwn    |       :star:       |     :dollar:     | :black_flag: |             `int overflow`             | 294 |
 |               signed or not signed               |   pwn    |       :star:       |     :dollar:     | :black_flag: |             `type casting`             | 272 |
-|       OverCobol        |   pwn    |       :star:       |     :dollar::dollar:     | :flags: |             `cobol`,`bof`             | 111 |
+|       [OverCobol](pwn/overCobol)        |   pwn    |       :star:       |     :dollar::dollar:     | 🚩 |             `cobol`,`bof`             | 111 |
 |    gimme-your-shell    |   pwn    |    :star:    | :dollar: | :black_flag: |   `shell coding`   | 66 |
 |        ropberry        |   pwn    |    :star:    |     :dollar:     | :black_flag: |       `ROP`        | 75 |
 |     hell_of_a_jail     |   pwn    | :star::star: | :dollar::dollar: |      :flags:      | `python3`,`pyjail` | 47 |
