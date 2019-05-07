@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/61cc66c/
+PUBLIC	server.py	/^PUBLIC = ROOT.joinpath('public')$/;"	v
+ROOT	server.py	/^ROOT = Path().resolve()$/;"	v
+app	server.py	/^def app():$/;"	f
+create_error_middleware	server.py	/^def create_error_middleware(overrides):$/;"	f
+error_middleware	server.py	/^    async def error_middleware(request, handler):$/;"	f	function:create_error_middleware	file:
+handle_403	server.py	/^async def handle_403(request):$/;"	f
+handle_404	server.py	/^async def handle_404(request):$/;"	f
+root	server.py	/^async def root(request):$/;"	f
+setup_error_middlewares	server.py	/^def setup_error_middlewares(app):$/;"	f
+stream_file	server.py	/^async def stream_file(request, filepath):$/;"	f

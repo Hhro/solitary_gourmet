@@ -32,9 +32,15 @@
 
 ### Reversing
 
-- **PaPaVM**: trivial한 껍질 벗기기? 과정을 거치면, 최종 바이너리로 VM이 등장한다. VM을 이해하기는 쉬우나, 풀이를 떠올리기는 좀 난해하다.
+- **PaPaVM**: trivial한 껍질 벗기기? 과정을 거치면, 최종 바이너리로 VM이 등장한다. VM을 이해하기는 쉬우나, 풀이를 떠올리기는 좀 난해하다. 
 
 
+
+### Web
+
+*pwn/rev에 비해 어렵다*
+
+- **Bypasses-everywhere** : 약간의 게싱과 `CSP`를 우회하는 `XSS`를 수행할 수 있는지를 묻는 문제. `Dangling markup`을 쓸 생각을 못한다면, 매우 복잡해진다. `XSS`,`CSP`,`Dangling markup`에 대해서 많은 것을 배울 수 있다.
 
 ---
 
@@ -58,6 +64,6 @@
 |               Exploring The Universe               |   web    |       :star:       |     :dollar:     |      -       |  `dir traversal`   | 140 |
 |         atchap         |   web    |      :star: |        :dollar: |      -       |         -         | 63 |
 |       unchained        |   web    |      X       |        X         |      X       |         X          | 42 |
-|  bypasses-everywhere   | web | :star::star::star: | :dollar::dollar::dollar: | :flags: | `CSP`,`XSS` | 5 |
+|  [bypasses-everywhere](web/bypassesEverywhere)  | web | :star::star::star: | :dollar::dollar::dollar: |      🚩       | `CSP`,`XSS`,`Dangling markup` | 5 |
 | bypasses-everywhere v2 | web | X | X | X | X | 3 |
 
