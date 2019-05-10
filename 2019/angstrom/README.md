@@ -16,7 +16,6 @@
 ### Pwnable
 
 - **over my brain** : CTF단골 소재인 `brain fuck`을 활용한 SBOF문제. 트리거는 쉽지만 한 번의 생각이 더 필요
-- **purchases, returns** : 그만좀 내자 `fsb`
 
 
 
