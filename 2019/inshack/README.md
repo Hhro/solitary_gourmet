@@ -59,7 +59,7 @@
 |  Obscure File Format   |   rev    |      X       |        X         |      X       |         `obfuscated`         | 50 |
 |             xHell             |   rev    |      X       |        X         |      X       |             `xlsx`             | 44 |
 |         Deaddrop Filesystem         |   rev    |         X          |        X        |      X       |             X              | 5 |
-|     useless-chall      |   rev   | :star: | :dollar::dollar: |     :flags: |         `angr`         | 27 |
+|     useless-chall      |   rev   | :star: | :dollar: |     :black_flag: |         `angr`         | 27 |
 |               PaPaVM               |   rev   |       :star::star:       |     :dollar:     | :black_flag: |    `VM`,`brute`    | 12 |
 |               Exploring The Universe               |   web    |       :star:       |     :dollar:     |      -       |  `dir traversal`   | 140 |
 |         atchap         |   web    |      :star: |        :dollar: |      -       |         -         | 63 |
