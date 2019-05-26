@@ -53,13 +53,13 @@
 |       [OverCobol](pwn/overCobol)        |   pwn    |       :star:       |     :dollar::dollar:     | 🚩 |             `cobol`,`bof`             | 111 |
 |    gimme-your-shell    |   pwn    |    :star:    | :dollar: | :black_flag: |   `shell coding`   | 66 |
 |        ropberry        |   pwn    |    :star:    |     :dollar:     | :black_flag: |       `ROP`        | 75 |
-|     hell_of_a_jail     |   pwn    | :star::star: | :dollar::dollar: | :black_flag: | `python3`,`pyjail` | 47 |
-|       john-cena        |   pwn   |       :star::star:       |     :dollar::dollar:     | :black_flag: |   `fsb`,`blind`    | 20 |
+|     hell_of_a_jail     |   pwn    | :star::star: | :dollar::dollar: |      :flags:      | `python3`,`pyjail` | 47 |
+|       john-cena        |   pwn   |       :star::star:       |     :dollar::dollar:     |   :flags:    |   `fsb`,`blind`    | 20 |
 |   Dashlame - Part 1    |   rev    |       :star:       |     :dollar:     |      -       |       `pyc`        | 268 |
 |  Obscure File Format   |   rev    |      X       |        X         |      X       |         `obfuscated`         | 50 |
 |             xHell             |   rev    |      X       |        X         |      X       |             `xlsx`             | 44 |
 |         Deaddrop Filesystem         |   rev    |         X          |        X        |      X       |             X              | 5 |
-|     useless-chall      |   rev   | :star: | :dollar::dollar: | :black_flag: |         `angr`         | 27 |
+|     useless-chall      |   rev   | :star: | :dollar: |     :black_flag: |         `angr`         | 27 |
 |               PaPaVM               |   rev   |       :star::star:       |     :dollar:     | :black_flag: |    `VM`,`brute`    | 12 |
 |               Exploring The Universe               |   web    |       :star:       |     :dollar:     |      -       |  `dir traversal`   | 140 |
 |         atchap         |   web    |      :star: |        :dollar: |      -       |         -         | 63 |
