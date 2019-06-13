@@ -16,7 +16,7 @@
 
 - **babylist**: 전형적인 2.27 Double free + CPP 벡터 구조체의 할당과 해제
 
-- **kpets**
+- **kpets**: 코드가 굉장히 이상하게 짜여져 있어서 더 이해하기가 어렵다. 커널 레벨에서 발생하는 레이스 컨디션 문제는 처음이라 꽤 흥미롭게 품.
 
 - **rusty_shop**
 
@@ -40,7 +40,7 @@
 |      otp_server      |   pwn    |          :star:          |         :dollar:         | :black_flag: |             `OOB`             |
 |         rank         |   pwn    |          :star:          |         :dollar:         | :black_flag: |             `OOB`             |
 |       babylist       |   pwn    |       :star::star:       |     :dollar::dollar:     |   :black_flag:    | `DFB`, `vector` |
-|        kpets         |   pwn    |       X       |         X         | X | `kmod` |
+|        kpets         |   pwn    |       :star::star:       |         :dollar::dollar::dollar:         | :flags: | `kmod`,`race_condition` |
 |      rusty_shop      |   pwn    | X | X |      X       |         X          |
 |      asciishop       |   pwn    |   X|         X         | X |      X       |
 |      raddest_db      |   pwn    |            X             |         X         |      X       |        X         |

@@ -28,7 +28,7 @@ Following these standards, I would evaluate several CTF challenges.
 
 - Challenge - Difficulty
   - :star: : It's only for noob.
-  - :star::star::​ It's easy, but not for noob.
+  - :star::star:: It's easy, but not for noob.
   - :star::star::star:: Need to spend some time on this challenge.
   - :star::star::star::star:: It's definitely hard.
   - :star::star::star::star::star: : It's from hell.
