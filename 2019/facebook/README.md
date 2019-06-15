@@ -16,9 +16,9 @@
 
 - **babylist**: 전형적인 2.27 Double free + CPP 벡터 구조체의 할당과 해제
 
-- **kpets**: 코드가 굉장히 이상하게 짜여져 있어서 더 이해하기가 어렵다. 커널 레벨에서 발생하는 레이스 컨디션 문제는 처음이라 꽤 흥미롭게 품.
+- **kpets**: 코드가 굉장히 이상하게 짜여져 있어서 더 이해하기가 어렵다. 커널 레벨 레이스컨디션.
 
-- **rusty_shop**
+- **rusty_shop**: 러스트는 demangle을 해도 분석하기가 참 난해하다. 좀 더 깔쌈하게 리버싱하는 방법이 없을까. oneday 취약점을 찾아서 공략하는게 재밌는 문제. Vtable이 덮여서 풀리는건 알겠는데, 정확히 어떻게 트리거가 되는건지는;;
 
 - **asciishop**
 
@@ -36,12 +36,12 @@
 
 |         Name         | Category |        Difficulty        |          Worth           |   Write up   |            Tags            |
 | :------------------: | :------: | :----------------------: | :----------------------: | :----------: | :------------------------: |
-|      overfloat       |   pwn    |          :star:          |         :dollar:         | :black_flag: |             `one-byte overwrite`             |
-|      otp_server      |   pwn    |          :star:          |         :dollar:         | :black_flag: |             `OOB`             |
-|         rank         |   pwn    |          :star:          |         :dollar:         | :black_flag: |             `OOB`             |
-|       babylist       |   pwn    |       :star::star:       |     :dollar::dollar:     |   :black_flag:    | `DFB`, `vector` |
-|        kpets         |   pwn    |       :star::star:       |         :dollar::dollar::dollar:         | :flags: | `kmod`,`race_condition` |
-|      rusty_shop      |   pwn    | X | X |      X       |         X          |
+|      [overfloat](pwn/overfloat)      |   pwn    |          :star:          |         :dollar:         | :black_flag: |             `one-byte overwrite`             |
+|      [otp_server](pwn/otp_server)      |   pwn    |          :star:          |         :dollar:         | :black_flag: |             `OOB`             |
+|         [rank](pwn/rank)         |   pwn    |          :star:          |         :dollar:         | :black_flag: |             `OOB`             |
+|       [babylist](pwn/babylist)       |   pwn    |       :star::star:       |     :dollar::dollar:     |   :black_flag:    | `DFB`, `vector` |
+|     [kpets](pwn/kpets)     |   pwn    |       :star::star:       |         :dollar::dollar::dollar:         | :flags: | `kmod`,`race_condition` |
+|      [rusty_shop](pwn/rusty_shop)      |   pwn    | :star::star::star: | :dollar::dollar::dollar: |      :triangular_flag_on_post:      |         `rust`,`CVE`,`integer_overflow`         |
 |      asciishop       |   pwn    |   X|         X         | X |      X       |
 |      raddest_db      |   pwn    |            X             |         X         |      X       |        X         |
 |      imageprot       |   rev    |            :star:             |         :dollar:         | :black_flag: |          -          |
