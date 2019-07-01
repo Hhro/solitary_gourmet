@@ -11,6 +11,7 @@
 |         [RCTF](rctf/)         |      36.00      |    X     |
 |   [facebook CTF](facebook/)   |      24.62      |    X     |
 |       [HSCTF6](hsctf6/)       |        0        |    X     |
+| [isitdtu](isitdtu/) | 0 | X |
 
 
 
