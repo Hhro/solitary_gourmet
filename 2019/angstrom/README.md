@@ -15,7 +15,8 @@
 
 ### Pwnable
 
-- **over my brain** : CTF단골 소재인 `brain fuck`을 활용한 SBOF문제. 트리거는 쉽지만 한 번의 생각이 더 필요
+- **over my brain** : CTF단골 소재인 `brain fuck`을 활용한 SBOF
+- **server** : 출제자가 어셈블리단위로 작업했기 때문에, 어셈단위로 보지 않으면 풀기 어렵다. 취약점이 굉장히 억지스럽다.
 
 
 
@@ -25,19 +26,19 @@
 
 ## Challenge List
 
-|        Name         | Category |  Difficulty  |  Worth   |   Write up   |         Tags         |
-| :-----------------: | :------: | :----------: | :------: | :----------: | :------------------: |
-|      aquarium       |   pwn    |    :star:    | :dollar: | :black_flag: |        `SBOF`        |
-|    chain of rope    |   pwn    |    :star:    | :dollar: | :black_flag: |        `ROP`         |
-|    over my brain    |   pwn    | :star::star: | :dollar: | :black_flag: | `brain fuck`, `SBOF` |
-|      pie shop       |   pwn    |      X       |    X     |      X       |          X           |
-|      purchases      |   pwn    |    :star:    | :dollar: | :black_flag: |        `fsb`         |
-|       returns       |   pwn    |    :star:    | :dollar: | :black_flag: |        `fsb`         |
-|       server        |   pwn    |      X       |    X     |      X       |          X           |
-|    weeb hunting     |   pwn    |      X       |    X     |      X       |          X           |
-|       bugger        |   rev    |      X       |    X     |      X       |          X           |
-| high quality checks |   rev    |      X       |    X     |      X       |          X           |
-|      I like it      |   rev    |    :star:    | :dollar: | :black_flag: |        `noob`        |
-|       icthyo        |   rev    |      X       |    X     |      X       |          X           |
-|    intro to rev     |   rev    |    :star:    | :dollar: | :black_flag: |        `noob`        |
-|      one bite       |   rev    |    :star:    | :dollar: | :black_flag: |        `noob`        |
+|        Name         | Category |     Difficulty     |      Worth       |   Write up   |         Tags         |
+| :-----------------: | :------: | :----------------: | :--------------: | :----------: | :------------------: |
+|      aquarium       |   pwn    |       :star:       |     :dollar:     | :black_flag: |        `SBOF`        |
+|    chain of rope    |   pwn    |       :star:       |     :dollar:     | :black_flag: |        `ROP`         |
+|    over my brain    |   pwn    |       :star:       |     :dollar:     | :black_flag: | `brain fuck`, `SBOF` |
+|      pie shop       |   pwn    |       :star:       |     :dollar:     | :black_flag: |    `pie`,`brute`     |
+|      purchases      |   pwn    |       :star:       |     :dollar:     | :black_flag: |        `fsb`         |
+|       returns       |   pwn    |       :star:       |     :dollar:     | :black_flag: |        `fsb`         |
+|       server        |   pwn    |    :star::star:    |     :dollar:     | :black_flag: |        `asm`         |
+|    weeb hunting     |   pwn    |         X          |        X         |      X       |          X           |
+|       bugger        |   rev    | :star::star::star: | :dollar::dollar: |      -       |     `anti-debug`     |
+| high quality checks |   rev    |       :star:       |     :dollar:     |      -       |        `angr`        |
+|      I like it      |   rev    |       :star:       |     :dollar:     | :black_flag: |        `noob`        |
+|       icthyo        |   rev    |    :star::star:    |     :dollar:     |      -       |        `png`         |
+|    intro to rev     |   rev    |       :star:       |     :dollar:     | :black_flag: |        `noob`        |
+|      one bite       |   rev    |       :star:       |     :dollar:     | :black_flag: |        `noob`        |
