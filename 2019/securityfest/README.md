@@ -32,7 +32,7 @@
 
 |                 Name                 | Category |     Difficulty     |      Worth       |   Write up   |            Tags            |
 | :----------------------------------: | :------: | :----------------: | :--------------: | :----------: | :------------------------: |
-|               baby1               |   pwn    |       :star:       |     :dollar:     | :black_flag: |              `SBOF`              |
+|               baby1               |   pwn    |       :star:       |     :dollar:     | :black_flag: |              `ROP`              |
 |    baby2    |   pwn    |       :star:       |     :dollar:     | :black_flag: |              `ROP`               |
 |    baby3    |   pwn    |       :star:       |         :dollar:         | :black_flag: |              `fsb`               |
 |    baby4    |   pwn    |    :star:    | :dollar: | :black_flag: |              `ROP`               |

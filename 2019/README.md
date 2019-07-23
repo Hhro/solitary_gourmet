@@ -3,7 +3,7 @@
 |              CTF              | Weight(CTFtime) | Complete |
 | :---------------------------: | :-------------: | :------: |
 |       [TGHACK](TGHACK/)       |        0        |    X     |
-|     [angstrom](angstrom/)     |      22.98      |    X     |
+|     [angstrom](angstrom/)     |      22.98      |    O    |
 |       [ASIS qual](ASIS/)       |      61.74      |    X     |
 |      [inshack](inshack/)      |      29.65      |    X     |
 |          [TSG](TSG/)          |        0        |    X     |
