@@ -42,7 +42,7 @@
 |       [babylist](pwn/babylist)       |   pwn    |       :star::star:       |     :dollar::dollar:     |   :black_flag:    | `DFB`, `vector` |
 |     [kpets](pwn/kpets)     |   pwn    |       :star::star:       |         :dollar::dollar::dollar:         | :flags: | `kmod`,`race_condition` |
 |      [rusty_shop](pwn/rusty_shop)      |   pwn    | :star::star::star: | :dollar::dollar::dollar: |      :triangular_flag_on_post:      |         `rust`,`CVE`,`integer_overflow`         |
-|      asciishop       |   pwn    |   X|         X         | X |      X       |
+|      [asciishop](pwn/asciishop/)      |   pwn    | :star::star::star: |         :dollar::dollar::dollar:         | :flags: |      X       |
 |      raddest_db      |   pwn    |            X             |         X         |      X       |        X         |
 |      imageprot       |   rev    |            :star:             |         :dollar:         | :black_flag: |          -          |
 | SOMBRERO ROJO(part1) |   rev    |            X             |         X         | X |             X              |

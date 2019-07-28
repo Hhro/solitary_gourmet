@@ -8,7 +8,7 @@ https://bypasses-everywhere.ctf.insecurity-insa.fr
 
 **:warning:Notice**
 
-다음을 참조하여 작성했습니다.
+다음을 참조함
 
 https://corb3nik.github.io/blog/ins-hack-2019/bypasses-everywhere, 
 
