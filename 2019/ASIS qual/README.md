@@ -27,6 +27,8 @@
 
 - **keymaker** : 선형대수학😬
 
+- **Medias** : 분석은 전체적으로 쉬움. 최종적으로 확인된 조건식을 `z3`로 푸는게 핵심인 문제. `z3`를 공부할겸 풀면 좋다.
+
   
 
 ---
@@ -43,7 +45,7 @@
 |     pwn101      |   pwn    | :star::star: |     :dollar::dollar:     | :black_flag: | `tcache`,`one byte overflow` |
 |     BabyVM1     |   pwn    | :star::star::star: | :dollar::dollar: | :black_flag: |              `vm`              |
 |    Keymaker     |   rev    | :star::star: | :dollar::dollar: | :black_flag: |       `linear algebra`       |
-|     Medias      |   rev    |      X       |        X         |      X       |              X               |
+|     Medias      |   rev    |      :star: | :dollar::dollar: |      :flags:      |              `z3`              |
 |   Archimedes    |   rev    |      X       |        X         |      X       |              X               |
 |    Mindspace    |   rev    |      X       |        X         |      X       |              X               |
 |    Seatbelt     |   rev    |      X       |        X         |      X       |              X               |
