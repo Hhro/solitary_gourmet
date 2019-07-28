@@ -4,8 +4,8 @@
 
 - Weight of CTF time : 61.74
 - Format : Jeopardy
-- Difficulty : ​TBD​
-- Novelty : TBD
+- Difficulty : :star::star:
+- Novelty : :dollar:
 
 
 
@@ -13,11 +13,13 @@
 
 ### Pwnable
 
-- **Silk roadI** : 기초적인 포너블 요소는 다 갖췄다. 그런데 불필요해보이는 계산문제 때문에 약간 번거롭다.
+- **Silk roadI** : 익스플로잇 내용은 간단하지만, 좀 귀찮다.
 
-- **precise Average** : 굉장히 쉬운 문제인데, 이것도 괜히 소수를 끌어들여서 번거롭게 만들었다. 그리고 어디선가 많이 본 것 같다.
+- **precise Average** : 쉽다.
 
 - **pwn101** : `tcache`와 힙 `one byte overflow`가 섞인 문제. `tcache` 연습문제 정도로 괜찮을 듯.
+
+- **BabyVM1** : 디스어셈블러 짜는게 상당히 귀찮다. 익스플로잇은 수월한편
 
   
 
@@ -39,7 +41,7 @@
 | precise Average |   pwn    | :star: |     :dollar:     | :black_flag: |   `SBOF`,`ROP`,`leave-ret`   |
 |  Double cream   |   pwn    |      X       |        X         |      X       |            `fsb`             |
 |     pwn101      |   pwn    | :star::star: |     :dollar::dollar:     | :black_flag: | `tcache`,`one byte overflow` |
-|     BabyVM1     |   pwn    |      X       |        X         |      X       |              X               |
+|     BabyVM1     |   pwn    | :star::star::star: | :dollar::dollar: | :black_flag: |              `vm`              |
 |    Keymaker     |   rev    | :star::star: | :dollar::dollar: | :black_flag: |       `linear algebra`       |
 |     Medias      |   rev    |      X       |        X         |      X       |              X               |
 |   Archimedes    |   rev    |      X       |        X         |      X       |              X               |

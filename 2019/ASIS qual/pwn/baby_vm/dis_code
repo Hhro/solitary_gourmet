@@ -1,0 +1,122 @@
+0. sub sp, 0xf0
+2. sub sp, 0xf0
+4. sub sp, 0xf0
+6. sub sp, 0x30
+8. mov $reg15, 0x1
+14. mov $reg0, 0x4800
+20. mov $reg1, 0x3c
+26. write(1, data[$reg0], $reg1)
+28. mov $reg0, 0x0
+34. mov $reg1, 0x4
+40. read(0, data[$reg0], $reg1)
+42. mov $reg0, 0x0
+48. mov $reg3, BYTE PTR data[$reg0]
+50. mov $reg9, 0x31
+56. sub $reg9, $reg3
+58. test $reg9
+    jz 88
+
+62. mov $reg9, 0x32
+68. sub $reg9, $reg3
+70. test $reg9
+    jz 209
+
+74. mov $reg9, 0x33
+80. sub $reg9, $reg3
+82. test $reg9
+    jz 304
+
+86. exit(0)
+88. mov $reg0, 0x483c
+94. mov $reg1, 0x1a
+100. write(1, data[$reg0], $reg1)
+102. sub sp, 0x40
+104. mov $reg0, 0x0
+110. mov $reg1, 0x80
+116. read(0,stack[0xcc0+$reg0],$reg0x1)
+118. mov $reg5, $reg0
+120. call malloc($reg0)
+122. mov $reg6, $reg0
+124. mov $reg4, 0x0
+130. mov $reg7, $reg4
+132. sub $reg7, $reg5
+134. test $reg7
+     jz 148
+
+138. mov $reg1, stack[0xcc0+$reg4]
+140. BYTE PTR chunk[$reg6][$reg4+4] = BYTE PTR $reg1
+143. add $reg4, $reg15
+145. jmp 130
+148. mov $reg1, 0x2
+154. call malloc(4*($reg1+1))
+156. mov $reg1, 0x0
+162. DWORD PTR chunk[$reg0][$reg1+1] = DWORD PTR $reg6
+165. mov $reg1, 0x4
+171. mov $reg2, data[$reg1]
+173. mov $reg1, 0x1
+179. DWORD PTR chunk[$reg0][$reg1+1] = DWORD PTR $reg2
+182. mov $reg1, 0x4
+188. mov DWORD PTR data[$reg1], $reg0
+190. add sp, 0x40
+192. mov $reg0, 0x4856
+198. mov $reg1, 0x16
+204. write(1, data[$reg0], $reg1)
+206. jmp 14
+209. mov $reg1, 0x4
+215. mov $reg0, data[$reg1]
+217. call 223
+
+220. jmp 14
+223. test $reg0
+     jnz 228
+
+227. ret
+
+228. sub sp, 0x40
+230. mov $reg9, $reg0
+232. mov $reg1, 0x0
+238. mov $reg0, DWORD PTR chunk[$reg9][$reg1+1]
+241. mov $reg3, DWORD PTR chunk[$reg0]
+243. mov $reg4, 0x0
+249. mov $reg7, $reg3
+251. sub $reg7, $reg4
+253. test $reg7
+     jz 267
+
+257. mov $reg1, DWORD PTR chunk[$reg0][$reg4+1]
+260. mov $stack[0xcc0+$reg4], $reg1
+262. add $reg4, $reg15
+264. jmp 249
+267. mov $reg2, 0x0
+273. write(1,stack[0xcc0+$reg2],0x3)
+275. mov $reg0, 0x489c
+281. mov $reg1, 0x1
+287. write(1, data[$reg0], $reg1)
+289. mov $reg1, 0x1
+295. mov $reg0, DWORD PTR chunk[$reg9][$reg1+1]
+298. call 223
+
+301. add sp, 0x40
+303. ret
+
+304. mov $reg0, 0x4
+310. mov $reg1, data[$reg0]
+312. test $reg1
+     jz 363
+
+316. mov $reg0, 0x0
+322. mov $reg2, DWORD PTR chunk[$reg1][$reg0+1]
+325. mov $reg0, 0x1
+331. mov $reg3, DWORD PTR chunk[$reg1][$reg0+1]
+334. call free(chunk[$reg2])
+336. call free(chunk[$reg1])
+338. mov $reg0, 0x4
+344. mov DWORD PTR data[$reg0], $reg3
+346. mov $reg0, 0x486c
+352. mov $reg1, 0x15
+358. write(1, data[$reg0], $reg1)
+360. jmp 14
+363. mov $reg0, 0x4881
+369. mov $reg1, 0x1b
+375. write(1, data[$reg0], $reg1)
+377. jmp 14

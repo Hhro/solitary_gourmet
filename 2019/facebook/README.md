@@ -28,7 +28,12 @@
 
 ### Reversing
 
-- **imageprot**: 워밍업
+다양한 언어와 아키텍쳐가 골고루 나옴. 난이도는 쉬움+보통인듯
+
+- **imageprot**: Warming-up with rust
+- **sombrero_rojo(part1)** : Ptrace를 이용한 anti-debugging
+- **go_get_the_flag** : Easy_crackme with GO
+- **matryoshka** : 귀찮다... :thumbsdown:
 
 ------
 
@@ -44,11 +49,11 @@
 |      [rusty_shop](pwn/rusty_shop)      |   pwn    | :star::star::star: | :dollar::dollar::dollar: |      :triangular_flag_on_post:      |         `rust`,`CVE`,`integer_overflow`         |
 |      [asciishop](pwn/asciishop/)      |   pwn    | :star::star::star: |         :dollar::dollar::dollar:         | :flags: |      X       |
 |      raddest_db      |   pwn    |            X             |         X         |      X       |        X         |
-|      imageprot       |   rev    |            :star:             |         :dollar:         | :black_flag: |          -          |
-| SOMBRERO ROJO(part1) |   rev    |            X             |         X         | X |             X              |
-|   go_get_the_flag    |   rev    |            X             |            X             |      X       |             X              |
-|      matryoshka      |   rev    |      X       |        X         |      X       |    X    |
-| SOMBRERO ROJO(part2) |   rev    |      X       |        X         |      X      |       X       |
+|      imageprot       |   rev    |            :star:             |         :dollar:         | - |          `rust`          |
+| SOMBRERO ROJO(part1) |   rev    |            :star:       |         :dollar::dollar:         | - |             `ptrace`,`anti-debugging`             |
+|   go_get_the_flag    |   rev    |            :star:       |            :dollar:     |             -             |             `go`             |
+|      matryoshka      |   rev    | :star::star: | :dollar::dollar: |    - |    `Mach-O`,`rc4`,`stego`    |
+| SOMBRERO ROJO(part2) |   rev    |      X       |        X        |      X      |       X       |
 |   nomoreeasycrypt    |   rev    |      X       |        X         |      X      |     X     |
 |   products manager   |   web    |      X       |        X         |      X      |     X     |
 |        pdfme         |   web    |      X       |        X         |      X      |        X        |
