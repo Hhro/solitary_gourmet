@@ -141,8 +141,9 @@ p.interactive()
 ```
 
 1. Expand stack to reach return stack. 
-   Because choice buf(4bytes) is controllable, and it's at data section(offset = 0), we would move our IP to this buf for further step.
-
+   
+Because choice buf(4bytes) is controllable, and it's at data section(offset = 0), we would move our IP to this buf for further step.
+   
 2. List elements & set choice buf
 
    Bytecodes `\x28\x45\x06` is same as this pesudo code:
@@ -153,6 +154,7 @@ p.interactive()
    ```
 
 3. Send backdoor command
+
    Top of the return stack is 0x80. So after return, IP will be at 0x80. All we need to do is write backdoor operation at data[0x80].
 
 
