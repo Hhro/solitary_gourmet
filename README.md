@@ -8,17 +8,16 @@ For now, every write-ups are written with Korean.
 
 ## Solving priority
 
-Though the ultimate goal of this project is solving all pwn/rev/web challenges from CTF, there is a definite time limit, since it's on my own. Hence, I consider a priority rule to achieve efficiency in this project.
+Though the ultimate goal of this project is solving all pwn challenges from CTF, there is a definite time limit, since it's on my own. Hence, I consider a priority rule to achieve efficiency in this project.
 
 Here is priority rule:
 
 1. now running
-
 2. high weight CTF(based on CTFtime)
-
 3. interesting topic
-
 4. low solves count
+
+If I have enough time, I would solve rev/web challenges together.
 
 ---
 
@@ -55,4 +54,4 @@ If I think it's worth, I would leave detail writeup and impression, but if not, 
 - :black_flag: : only simple writeup(code and little description)
 - :flags: : detail writeup will be uploaded soon.
 - :triangular_flag_on_post: : detail writeup is uploaded.
-- \- : It won't be filled. (maybe because it's too easy)
+- \- : It won't be filled. (maybe because it's too easy, or boring)
