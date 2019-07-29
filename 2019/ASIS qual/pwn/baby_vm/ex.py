@@ -1,5 +1,4 @@
 from pwn import *
-import baby_asmbler
 
 p=process("./baby_vm.elf")
 

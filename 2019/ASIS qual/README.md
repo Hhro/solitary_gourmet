@@ -43,7 +43,7 @@
 | precise Average |   pwn    | :star: |     :dollar:     | :black_flag: |   `SBOF`,`ROP`,`leave-ret`   |
 |  Double cream   |   pwn    |      X       |        X         |      X       |            `fsb`             |
 |     pwn101      |   pwn    | :star::star: |     :dollar::dollar:     | :black_flag: | `tcache`,`one byte overflow` |
-|     BabyVM1     |   pwn    | :star::star::star: | :dollar::dollar: | :black_flag: |              `vm`              |
+|     BabyVM1     |   pwn    | :star::star::star: | :dollar::dollar: | :flags: |              `vm`              |
 |    Keymaker     |   rev    | :star::star: | :dollar::dollar: | :black_flag: |       `linear algebra`       |
 |     Medias      |   rev    |      :star: | :dollar::dollar: |      :flags:      |              `z3`              |
 |   Archimedes    |   rev    |      X       |        X         |      X       |              X               |
