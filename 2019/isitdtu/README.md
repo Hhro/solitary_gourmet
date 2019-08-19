@@ -44,22 +44,22 @@
 
 ## Challenge List
 
-|     Name      | Category | Difficulty |      Worth       |   Write up   |         Tags         |
-| :-----------: | :------: | :--------: | :--------------: | :----------: | :------------------: |
-|  iz_heap_lv1  |   pwn    |   :star:   |     :dollar:     | :black_flag: |        `oob`         |
-|  iz_heap_lv2  |   pwn    |   :star:   |     :dollar:     | :black_flag: | `null-byte overflow` |
-| babyshellcode |   pwn    |   :star:   | :dollar::dollar: | :black_flag: |  `time based leak`   |
-|   Tokenizer   |   pwn    |     x      |        x         |      x       |          `x          |
-|  prisonbreak  |   pwn    |     x      |        x         |      x       |          `x          |
-|   Recovery    |   rev    |   :star:   |     :dollar:     |      -       |  `jar`, `algorithm`  |
-|   Pytecode    |   rev    |   :star:   |     :dollar:     |      -       |       `python`       |
-|     Re01      |   rev    |   :star:   |        NO        |      -       |          -           |
-|    CHIACAX    |   rev    |     x      |        x         |      x       |          x           |
-|     3006      |   rev    |     x      |        x         |      x       |          x           |
-|    GoFast     |   rev    |     x-     |        -x        |      x-      |          x           |
-|   Crack me    |   rev    |     x      |        x         |      x       |          x           |
-|  Rose Garden  |   web    |   :star:   |     :dollar:     |      -       |          -           |
-|   XSSgame1    |   web    |     x      |        x         |      x       |          x           |
-|    EasyPHP    |   web    |     x      |        x         |      x-      |          `x          |
-|   XSSgame2    |   web    |     x      |        x         |      x       |          x           |
+|     Name      | Category |  Difficulty  |      Worth       |         Write up          |         Tags         |
+| :-----------: | :------: | :----------: | :--------------: | :-----------------------: | :------------------: |
+|  iz_heap_lv1  |   pwn    |    :star:    |     :dollar:     |       :black_flag:        |        `oob`         |
+|  iz_heap_lv2  |   pwn    |    :star:    |     :dollar:     |       :black_flag:        | `null-byte overflow` |
+| babyshellcode |   pwn    |    :star:    | :dollar::dollar: |       :black_flag:        |  `time based leak`   |
+|   Tokenizer   |   pwn    | :star::star: |     :dollar:     | :triangular_flag_on_post: |        `rop`         |
+|  prisonbreak  |   pwn    |      x       |        x         |             x             |          x           |
+|   Recovery    |   rev    |    :star:    |     :dollar:     |             -             |  `jar`, `algorithm`  |
+|   Pytecode    |   rev    |    :star:    |     :dollar:     |             -             |       `python`       |
+|     Re01      |   rev    |    :star:    |        NO        |             -             |          -           |
+|    CHIACAX    |   rev    |      x       |        x         |             x             |          x           |
+|     3006      |   rev    |      x       |        x         |             x             |          x           |
+|    GoFast     |   rev    |      x-      |        -x        |            x-             |          x           |
+|   Crack me    |   rev    |      x       |        x         |             x             |          x           |
+|  Rose Garden  |   web    |    :star:    |     :dollar:     |             -             |          -           |
+|   XSSgame1    |   web    |      x       |        x         |             x             |          x           |
+|    EasyPHP    |   web    |      x       |        x         |            x-             |          `x          |
+|   XSSgame2    |   web    |      x       |        x         |             x             |          x           |
 

@@ -1,3 +1,0 @@
-break *main+110
-disable $bpnum
-
